@@ -72,3 +72,4 @@ the sensor → check `vl53l8cx_is_alive` → `vl53l8cx_init` (firmware upload,
   not a constraint.
 - Use `TEST3.c`'s duty-cycled pattern (range → range → power down) for
   battery-powered deployments that only need periodic snapshots.
+- Use TEST.c files in main to run all these codes...
