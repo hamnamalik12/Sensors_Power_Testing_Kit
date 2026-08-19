@@ -1,0 +1,4 @@
+[0;33m--- esp-idf-monitor 1.9.0 on /dev/ttyACM2 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0m--- 0x4201c70e: [0;33mmain_task[0m[0m at [0;32m/home/hamna/esp/esp-idf/components/freertos/app_startup.c[0m[0m:[1;31m164[0m
+[0m

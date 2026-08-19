@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/home/hamna/ignia/tof_VL53L8CX/build/CMakeFiles/bootloader
+/home/hamna/ignia/tof_VL53L8CX/build/CMakeFiles/bootloader.rule
+/home/hamna/ignia/tof_VL53L8CX/build/CMakeFiles/bootloader-complete.rule
+/home/hamna/ignia/tof_VL53L8CX/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/home/hamna/ignia/tof_VL53L8CX/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/hamna/ignia/tof_VL53L8CX/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/hamna/ignia/tof_VL53L8CX/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/hamna/ignia/tof_VL53L8CX/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/hamna/ignia/tof_VL53L8CX/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/hamna/ignia/tof_VL53L8CX/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
