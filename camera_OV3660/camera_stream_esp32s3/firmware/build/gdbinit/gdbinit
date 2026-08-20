@@ -1,0 +1,2 @@
+source /home/hamna/camera_stream_esp32s3/firmware/build/gdbinit/symbols
+source /home/hamna/camera_stream_esp32s3/firmware/build/gdbinit/connect

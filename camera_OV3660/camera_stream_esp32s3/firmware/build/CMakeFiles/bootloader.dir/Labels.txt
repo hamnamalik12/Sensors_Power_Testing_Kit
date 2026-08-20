@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/home/hamna/camera_stream_esp32s3/firmware/build/CMakeFiles/bootloader
+/home/hamna/camera_stream_esp32s3/firmware/build/CMakeFiles/bootloader.rule
+/home/hamna/camera_stream_esp32s3/firmware/build/CMakeFiles/bootloader-complete.rule
+/home/hamna/camera_stream_esp32s3/firmware/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/home/hamna/camera_stream_esp32s3/firmware/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/hamna/camera_stream_esp32s3/firmware/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/hamna/camera_stream_esp32s3/firmware/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/hamna/camera_stream_esp32s3/firmware/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/hamna/camera_stream_esp32s3/firmware/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/hamna/camera_stream_esp32s3/firmware/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

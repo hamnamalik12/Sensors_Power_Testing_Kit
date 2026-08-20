@@ -1,0 +1,142 @@
+[0;32mI (95) esp_image: segment 0: paddr=00010020 vaddr=3c0a002ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x15 (USB_UART_CHIP_RESET),boot:0x2b (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048c29
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2810,len:0x1828
+load:0x403c8700,len:0x4
+load:0x403c8704,len:0xce8
+load:0x403cb700,len:0x2eb8
+entry 0x403c8918
+[0;32mI (26) boot: ESP-IDF v5.3.4 2nd stage bootloader[0m
+[0;32mI (27) boot: compile time Aug 18 2026 16:36:31[0m
+[0;32mI (27) boot: Multicore bootloader[0m
+[0;32mI (30) boot: chip revision: v0.2[0m
+[0;32mI (34) boot: efuse block revision: v1.4[0m
+[0;32mI (38) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (43) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (48) boot.esp32s3: SPI Flash Size : 8MB[0m
+[0;32mI (52) boot: Enabling RNG early entropy source...[0m
+[0;32mI (58) boot: Partition Table:[0m
+[0;32mI (61) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (69) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (76) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (84) boot:  2 factory          factory app      00 00 00010000 00300000[0m
+[0;32mI (91) boot: End of partition table[0m
+[0;32mI (95) esp_image: segment 0: paddr=00010020 vaddr=3c0a0020 size=20a80h (133760) map[0m
+[0;32mI (128) esp_image: segment 1: paddr=00030aa8 vaddr=3fc9cc00 size=07774h ( 30580) load[0m
+[0;32mI (135) esp_image: segment 2: paddr=00038224 vaddr=40374000 size=07df4h ( 32244) load[0m
+[0;32mI (143) esp_image: segment 3: paddr=00040020 vaddr=42000020 size=9ce10h (642576) map[0m
+[0;32mI (261) esp_image: segment 4: paddr=000dce38 vaddr=4037bdf4 size=10dc4h ( 69060) load[0m
+[0;32mI (287) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (287) boot: Disabling RNG early entropy source...[0m
+[0;32mI (299) octal_psram: vendor id    : 0x0d (AP)[0m
+[0;32mI (299) octal_psram: dev id       : 0x02 (generation 3)[0m
+[0;32mI (300) octal_psram: density      : 0x03 (64 Mbit)[0m
+[0;32mI (304) octal_psram: good-die     : 0x01 (Pass)[0m
+[0;32mI (309) octal_psram: Latency      : 0x01 (Fixed)[0m
+[0;32mI (315) octal_psram: VCC          : 0x01 (3V)[0m
+[0;32mI (320) octal_psram: SRF          : 0x01 (Fast Refresh)[0m
+[0;32mI (326) octal_psram: BurstType    : 0x01 (Hybrid Wrap)[0m
+[0;32mI (331) octal_psram: BurstLen     : 0x01 (32 Byte)[0m
+[0;32mI (337) octal_psram: Readlatency  : 0x02 (10 cycles@Fixed)[0m
+[0;32mI (343) octal_psram: DriveStrength: 0x00 (1/1)[0m
+[0;32mI (349) MSPI Timing: PSRAM timing tuning index: 5[0m
+[0;32mI (354) esp_psram: Found 8MB PSRAM device[0m
+[0;32mI (358) esp_psram: Speed: 80MHz[0m
+[0;32mI (362) cpu_start: Multicore app[0m
+[0;32mI (818) esp_psram: SPI SRAM memory test OK[0m
+[0;32mI (827) cpu_start: Pro cpu start user code[0m
+[0;32mI (827) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (828) app_init: Application information:[0m
+[0;32mI (830) app_init: Project name:     camera_stream_esp32s3[0m
+[0;32mI (836) app_init: App version:      1[0m
+[0;32mI (841) app_init: Compile time:     Aug 18 2026 16:36:20[0m
+[0;32mI (847) app_init: ELF file SHA256:  be16ed823...[0m
+[0;32mI (852) app_init: ESP-IDF:          v5.3.4[0m
+[0;32mI (857) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (862) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (867) efuse_init: Chip rev:         v0.2[0m
+[0;32mI (871) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (879) heap_init: At 3FCA8100 len 00041610 (261 KiB): RAM[0m
+[0;32mI (885) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (891) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (897) heap_init: At 600FE000 len 00001FE8 (7 KiB): RTCRAM[0m
+[0;32mI (903) esp_psram: Adding pool of 8192K of PSRAM memory to heap allocator[0m
+[0;32mI (911) spi_flash: detected chip: gd[0m
+[0;32mI (915) spi_flash: flash io: dio[0m
+[0;33mW (919) i2c: This driver is an old driver, please migrate your application code to adapt `driver/i2c_master.h`[0m
+[0;32mI (930) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (936) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (944) main_task: Started on CPU0[0m
+[0;32mI (954) esp_psram: Reserving pool of 32K of internal memory for DMA/internal allocations[0m
+[0;32mI (954) main_task: Calling app_main()[0m
+[0;32mI (974) pp: pp rom version: e7ae62f[0m
+[0;32mI (974) net80211: net80211 rom version: e7ae62f[0m
+[0;32mI (984) wifi:wifi driver task: 3fcba1e0, prio:23, stack:6656, core=0[0m
+[0;32mI (984) wifi:wifi firmware version: d2d8792[0m
+[0;32mI (984) wifi:wifi certification version: v7.0[0m
+[0;32mI (984) wifi:config NVS flash: enabled[0m
+[0;32mI (994) wifi:config nano formating: disabled[0m
+[0;32mI (994) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (1004) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (1004) wifi:Init management short buffer num: 32[0m
+[0;32mI (1004) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (1014) wifi:Init static tx FG buffer num: 2[0m
+[0;32mI (1014) wifi:Init static rx buffer size: 1600[0m
+[0;32mI (1024) wifi:Init static rx buffer num: 10[0m
+[0;32mI (1024) wifi:Init dynamic rx buffer num: 32[0m
+[0;32mI (1034) wifi_init: rx ba win: 6[0m
+[0;32mI (1034) wifi_init: accept mbox: 6[0m
+[0;32mI (1034) wifi_init: tcpip mbox: 32[0m
+[0;32mI (1044) wifi_init: udp mbox: 6[0m
+[0;32mI (1044) wifi_init: tcp mbox: 6[0m
+[0;32mI (1044) wifi_init: tcp tx win: 5760[0m
+[0;32mI (1054) wifi_init: tcp rx win: 5760[0m
+[0;32mI (1054) wifi_init: tcp mss: 1440[0m
+[0;32mI (1064) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (1064) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;33mW (1074) wifi:Password length matches WPA2 standards, authmode threshold changes from OPEN to WPA2[0m
+[0;32mI (1084) phy_init: phy_version 701,f4f1da3a,Mar  3 2025,15:50:10[0m
+[0;32mI (1124) wifi:mode : sta (a4:cb:8f:e9:15:f8)[0m
+[0;32mI (1124) wifi:enable tsf[0m
+[0;32mI (1124) s3 ll_cam: DMA Channel=0[0m
+[0;32mI (1124) cam_hal: cam init ok[0m
+[0;32mI (1124) sccb: pin_sda 40 pin_scl 39[0m
+[0;32mI (1124) sccb: sccb_i2c_port=1[0m
+[0;32mI (1134) wifi:new:<3,0>, old:<1,0>, ap:<255,255>, sta:<3,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (1144) wifi:state: init -> auth (0xb0)[0m
+[0;32mI (1154) camera: Camera PID=0x3660 VER=0x00 MIDL=0x00 MIDH=0x00[0m
+[0;32mI (1154) camera: Detected OV3660 camera[0m
+[0;32mI (1154) camera: Detected camera at address=0x3c[0m
+[0;32mI (1154) wifi:state: auth -> assoc (0x0)[0m
+[0;32mI (1164) wifi:state: assoc -> init (0x2a0)[0m
+[0;32mI (1174) wifi:new:<3,0>, old:<3,0>, ap:<255,255>, sta:<3,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;33mW (1174) xiao_camera_stream: Disconnected, retrying...[0m
+[0;32mI (1484) cam_hal: PSRAM DMA mode disabled[0m
+[0;32mI (1484) cam_hal: buffer_size: 16384, half_buffer_size: 1024, node_buffer_size: 1024, node_cnt: 16, total_cnt: 60[0m
+[0;32mI (1484) cam_hal: Allocating 61440 Byte frame buffer in PSRAM[0m
+[0;32mI (1494) cam_hal: Allocating 61440 Byte frame buffer in PSRAM[0m
+[0;32mI (1494) cam_hal: cam config ok[0m
+[0;32mI (1514) ov3660: Calculated VCO: 200000000 Hz, PLLCLK: 200000000 Hz, SYSCLK: 50000000 Hz, PCLK: 10000000 Hz[0m
+[0;32mI (1534) xiao_camera_stream: Camera PID: 0x3660[0m
+[0;32mI (1544) xiao_camera_stream: Camera initialized, connecting to WiFi...[0m
+[0;32mI (1544) main_task: Returned from app_main()[0m
+[0;33mW (3594) xiao_camera_stream: Disconnected, retrying...[0m
+[0;32mI (3594) wifi:new:<3,0>, old:<3,0>, ap:<255,255>, sta:<3,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (3604) wifi:state: init -> auth (0xb0)[0m
+[0;32mI (3614) wifi:state: auth -> assoc (0x0)[0m
+[0;32mI (3624) wifi:state: assoc -> run (0x10)[0m
+[0;32mI (3634) wifi:connected with Brainswarm Robotics, aid = 44, channel 3, BW20, bssid = ec:55:1c:44:ed:98[0m
+[0;32mI (3634) wifi:security: WPA2-PSK, phy: bgn, rssi: -50[0m
+[0;32mI (3634) wifi:pm start, type: 1[0m
+
+[0;32mI (3644) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us[0m
+[0;32mI (3644) wifi:set rx beacon pti, rx_bcn_pti: 0, bcn_timeout: 25000, mt_pti: 0, mt_time: 10000[0m
+[0;32mI (3714) wifi:AP's beacon interval = 102400 us, DTIM period = 1[0m
+[0;32mI (6654) esp_netif_handlers: sta ip: 192.168.18.149, mask: 255.255.255.0, gw: 192.168.18.1[0m
+[0;32mI (6654) xiao_camera_stream: Got IP: 192.168.18.149[0m
+[0;32mI (6654) xiao_camera_stream: Server started on port 81: /stream (every 5000 ms) and /capture (single shot)[0m
+[0;32mI (36484) wifi:<ba-add>idx:0 (ifx:0, ec:55:1c:44:ed:98), tid:0, ssn:5, winSize:64[0m
+[0;32mI (76944) wifi:<ba-add>idx:1 (ifx:0, ec:55:1c:44:ed:98), tid:6, ssn:5, winSize:64[0m

@@ -1,0 +1,92 @@
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x15 (USB_UART_CHIP_RESET),boot:0x2b (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4200a459
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2810,len:0x1828
+load:0x403c8700,len:0x4
+load:0x403c8704,len:0xce8
+load:0x403cb700,len:0x2eb8
+entry 0x403c8918
+[0;32mI (26) boot: ESP-IDF v5.3.4 2nd stage bootloader[0m
+[0;32mI (27) boot: compile time Aug 18 2026 16:36:31[0m
+[0;32mI (27) boot: Multicore bootloader[0m
+[0;32mI (30) boot: chip revision: v0.2[0m
+[0;32mI (34) boot: efuse block revision: v1.4[0m
+[0;32mI (38) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (43) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (48) boot.esp32s3: SPI Flash Size : 8MB[0m
+[0;32mI (52) boot: Enabling RNG early entropy source...[0m
+[0;32mI (58) boot: Partition Table:[0m
+[0;32mI (61) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (69) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (76) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (84) boot:  2 factory          factory app      00 00 00010000 00300000[0m
+[0;32mI (91) boot: End of partition table[0m
+[0;32mI (95) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=0f174h ( 61812) map[0m
+[0;32mI (115) esp_image: segment 1: paddr=0001f19c vaddr=3fc95800 size=00e7ch (  3708) load[0m
+[0;32mI (116) esp_image: segment 2: paddr=00020020 vaddr=42000020 size=289a0h (166304) map[0m
+[0;32mI (151) esp_image: segment 3: paddr=000489c8 vaddr=3fc9667c size=04980h ( 18816) load[0m
+[0;32mI (156) esp_image: segment 4: paddr=0004d350 vaddr=40374000 size=11744h ( 71492) load[0m
+[0;32mI (180) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (181) boot: Disabling RNG early entropy source...[0m
+[0;32mI (192) octal_psram: vendor id    : 0x0d (AP)[0m
+[0;32mI (193) octal_psram: dev id       : 0x02 (generation 3)[0m
+[0;32mI (193) octal_psram: density      : 0x03 (64 Mbit)[0m
+[0;32mI (198) octal_psram: good-die     : 0x01 (Pass)[0m
+[0;32mI (203) octal_psram: Latency      : 0x01 (Fixed)[0m
+[0;32mI (208) octal_psram: VCC          : 0x01 (3V)[0m
+[0;32mI (213) octal_psram: SRF          : 0x01 (Fast Refresh)[0m
+[0;32mI (219) octal_psram: BurstType    : 0x01 (Hybrid Wrap)[0m
+[0;32mI (225) octal_psram: BurstLen     : 0x01 (32 Byte)[0m
+[0;32mI (230) octal_psram: Readlatency  : 0x02 (10 cycles@Fixed)[0m
+[0;32mI (236) octal_psram: DriveStrength: 0x00 (1/1)[0m
+[0;32mI (242) MSPI Timing: PSRAM timing tuning index: 5[0m
+[0;32mI (247) esp_psram: Found 8MB PSRAM device[0m
+[0;32mI (252) esp_psram: Speed: 80MHz[0m
+[0;32mI (256) cpu_start: Multicore app[0m
+[0;32mI (712) esp_psram: SPI SRAM memory test OK[0m
+[0;32mI (721) cpu_start: Pro cpu start user code[0m
+[0;32mI (721) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (721) app_init: Application information:[0m
+[0;32mI (724) app_init: Project name:     camera_stream_esp32s3[0m
+[0;32mI (730) app_init: App version:      1[0m
+[0;32mI (734) app_init: Compile time:     Aug 18 2026 16:36:20[0m
+[0;32mI (740) app_init: ELF file SHA256:  df89b0ac2...[0m
+[0;32mI (745) app_init: ESP-IDF:          v5.3.4[0m
+[0;32mI (750) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (755) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (760) efuse_init: Chip rev:         v0.2[0m
+[0;32mI (765) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (772) heap_init: At 3FC9B9F0 len 0004DD20 (311 KiB): RAM[0m
+[0;32mI (778) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (784) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (790) heap_init: At 600FE000 len 00001FE8 (7 KiB): RTCRAM[0m
+[0;32mI (797) esp_psram: Adding pool of 8192K of PSRAM memory to heap allocator[0m
+[0;32mI (805) spi_flash: detected chip: gd[0m
+[0;32mI (808) spi_flash: flash io: dio[0m
+[0;33mW (812) i2c: This driver is an old driver, please migrate your application code to adapt `driver/i2c_master.h`[0m
+[0;32mI (823) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (830) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (837) main_task: Started on CPU0[0m
+[0;32mI (847) esp_psram: Reserving pool of 32K of internal memory for DMA/internal allocations[0m
+[0;32mI (847) main_task: Calling app_main()[0m
+[0;32mI (857) s3 ll_cam: DMA Channel=0[0m
+[0;32mI (857) cam_hal: cam init ok[0m
+[0;32mI (857) sccb: pin_sda 40 pin_scl 39[0m
+[0;32mI (867) sccb: sccb_i2c_port=1[0m
+[0;32mI (877) camera: Camera PID=0x3660 VER=0x00 MIDL=0x00 MIDH=0x00[0m
+[0;32mI (877) camera: Detected OV3660 camera[0m
+[0;32mI (877) camera: Detected camera at address=0x3c[0m
+[0;32mI (1197) cam_hal: PSRAM DMA mode disabled[0m
+[0;32mI (1197) cam_hal: buffer_size: 16384, half_buffer_size: 1024, node_buffer_size: 1024, node_cnt: 16, total_cnt: 60[0m
+[0;32mI (1197) cam_hal: Allocating 61440 Byte frame buffer in PSRAM[0m
+[0;32mI (1207) cam_hal: Allocating 61440 Byte frame buffer in PSRAM[0m
+[0;32mI (1207) cam_hal: cam config ok[0m
+[0;32mI (1227) ov3660: Calculated VCO: 200000000 Hz, PLLCLK: 200000000 Hz, SYSCLK: 50000000 Hz, PCLK: 10000000 Hz[0m
+[0;32mI (1247) xiao_camera_capture: Camera PID: 0x3660[0m
+[0;32mI (1257) xiao_camera_capture: Camera initialized. Capturing every 5000 ms...[0m
+[0;32mI (1377) xiao_camera_capture: Pic captured! #1, size: 11602 bytes, res: 640x480[0m
+[0;32mI (6377) xiao_camera_capture: Pic captured! #2, size: 12564 bytes, res: 640x480[0m
+[0;32mI (11377) xiao_camera_capture: Pic captured! #3, size: 11757 bytes, res: 640x480[0m
