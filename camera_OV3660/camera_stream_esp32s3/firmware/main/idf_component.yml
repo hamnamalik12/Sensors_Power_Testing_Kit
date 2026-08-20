@@ -1,5 +1,0 @@
-## IDF Component Manager Manifest File
-dependencies:
-  espressif/esp32-camera:
-    version: "^2.0.4"
-  espressif/human_face_detect: "*"
