@@ -1,0 +1,4 @@
+[0;33m--- esp-idf-monitor 1.9.0 on /dev/ttyACM2 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0m--- 0x420039b0: [0;33mesp_intr_alloc_intrstatus[0m[0m at [0;32m/home/hamna/esp/esp-idf/components/esp_hw_support/intr_alloc.c[0m[0m:[1;31m528[0m
+[0m
